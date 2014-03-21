@@ -1,4 +1,4 @@
-<?
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 class MY_DB_pdo_driver extends CI_DB_pdo_driver {
 
         function __construct($params){

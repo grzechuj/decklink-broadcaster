@@ -38,7 +38,11 @@
 |
 */
 
-$route['default_controller'] = "wizard";
+$route['default_controller'] = "broadcast";
+$route["asset/:any"] = "asset/index";
+$route["css/:any"] = "asset/index";
+$route["img/:any"] = "asset/index";
+$route["js/:any"] = "asset/index";
 $route['404_override'] = '';
 
 
